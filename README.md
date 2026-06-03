@@ -29,5 +29,4 @@ I develop automated methods for finding vulnerability classes that SAST structur
 
 Method is patent-pending. Findings are responsibly disclosed.
 
-Licensing and structured engagement inquiries: admin@fluentlogic.org
-Research: orthant.org
+Research correspondence: admin@fluentlogic.org · Research site: orthant.org
