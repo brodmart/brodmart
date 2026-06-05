@@ -1,8 +1,9 @@
  ## Martin Brodeur — Independent Security Researcher                                                                                        
 
-I develop automated methods for finding vulnerability classes that SAST structurally cannot detect.
+I develop automated methods for finding vulnerability classes that SAST structurally cannot detect. 
+Method emphasizes live-toolchain reproduction over static-analysis claims — every filing includes container-reproducible evidence.
 
-## Recent CVEs (10 live · 3 imminent)
+## Recent CVEs (10 live · 4 imminent)
 
 **Docling / IBM Research Zurich — bulk acceptance Jun 02 2026 (6 CVEs, one cycle):**
 - CVE-2026-44023 — docling-core remote filename resolution: SSRF + Content-Disposition path traversal (HIGH 9.4, AV:N/UI:N)
@@ -19,10 +20,11 @@ I develop automated methods for finding vulnerability classes that SAST structur
 - CVE-2026-44936 — Rancher Fleet SSRF → BasicAuth credential exfiltration (co-credit NATO NCSC)
 
 **Imminent (assigned, pending publish):**
-- CVE-2026-47256 — OpenTelemetry Sentry exporter path traversal (fix PR approved)
+- CVE-2026-47256 — OpenTelemetry Sentry exporter path traversal (fix PR #1 merged, v0.154.0 release pending)
 - Samsung DSPRODSEC-967 — SCSC wlbt WiFi driver heap overflow via attacker-controlled SSID IE length (CWE-78; CVE committed by Samsung DS PSIRT)
 - Hyperledger fabric-ca GHSA-xghw-p77p-3r7x — pre-auth LDAP injection (CWE-90; CVE requested by maintainer Jun 01 2026)
-
+- open-webui GHSA-9rpj-v7hf-vv2w — url_idx vulnerability
+  
 ## Scope
 
 260+ coordinated disclosures across IBM Research, Microsoft, Google, Apple (swift-nio), Hyperledger, OpenTelemetry, Samsung, and AI/ML infrastructure (vLLM, MLflow, Gradio, Dify, OpenWebUI, Haystack, BentoML, LlamaIndex, AutoGen, granite-tsfm, and others).
