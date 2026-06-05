@@ -5,7 +5,7 @@ Method emphasizes live-toolchain reproduction over static-analysis claims — ev
 
 ## Recent CVEs (10 live · 4 imminent)
 
-**Docling / IBM Research Zurich — bulk acceptance Jun 02 2026 (6 CVEs, one cycle):**
+**Docling / IBM Research Zurich:**
 - CVE-2026-44023 — docling-core remote filename resolution: SSRF + Content-Disposition path traversal (HIGH 9.4, AV:N/UI:N)
 - CVE-2026-44016 — docling Playwright unrestricted JS + network (HIGH 9.0, scope-change)
 - CVE-2026-44019 — docling-core image URI validation: file:// + unbounded data: (HIGH 8.0)
