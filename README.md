@@ -15,7 +15,7 @@ I develop automated methods for finding vulnerability classes that SAST structur
 - **CVE-2026-47320** — Samsung rlottie PathData empty-frames + Layer recursion DoS (MODERATE 6.1, CWE-824 + CWE-674; fix in PR Samsung/rlottie#593; Samsung TV & Appliance CNA, MSP I-121052)
 
 **ManageIQ (Red Hat CNA):**
-- **CVE-2026-52903** — ManageIQ YAML `safe_load`→`unsafe_load` production fallback in `lib/extensions/yaml_load_aliases.rb` (HIGH 8.8, AV:N/PR:L; CWE-502 deserialization → Ruby Psych RCE; honestly downgraded from filed 9.8 on PR:L authenticated)
+- **CVE-2026-52903** — ManageIQ YAML `safe_load`→`unsafe_load` production fallback in `lib/extensions/yaml_load_aliases.rb` (HIGH 8.8, AV:N/PR:L; CWE-502 deserialization → Ruby Psych RCE)
 
 **Prior CVEs:**
 - **CVE-2026-41586** — Hyperledger Fabric SDK Java RCE (CRITICAL 9.0; deployed at Walmart / Maersk / HSBC)
