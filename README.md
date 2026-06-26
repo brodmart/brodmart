@@ -3,7 +3,7 @@
 
 I develop automated methods for finding vulnerability classes that SAST structurally cannot detect. Method emphasizes live-toolchain reproduction over static-analysis claims — every filing includes container-reproducible evidence.
 
-## Recent CVEs (18 issued · 2 pending publish · 1 vendor-direct advisory)
+## Recent CVEs (20 issued · 2 pending publish · 1 vendor-direct advisory)
 
 **Docling / IBM Research Zurich (Jun 02 2026, 6-CVE cluster):**
 - CVE-2026-44023 — docling-core remote filename resolution: SSRF + Content-Disposition path traversal (HIGH 9.4, AV:N/UI:N)
