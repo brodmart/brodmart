@@ -54,5 +54,5 @@ I develop automated methods for finding vulnerability classes that SAST structur
 260+ coordinated disclosures across IBM Research, Microsoft, Google, Apple (swift-nio), Hyperledger, OpenTelemetry, Samsung, Red Hat / ManageIQ / Ansible / Pulpcore, AI/ML infrastructure (vLLM, MLflow, Gradio, Dify, Open WebUI, Haystack, BentoML, LlamaIndex, AutoGen, granite-tsfm, and others), and the wireless stack (wpa_supplicant / hostapd via w1.fi direct).
 
 Method is patent-pending. Findings are responsibly disclosed.
-Research correspondence: admin@fluentlogic.org · Research site: orthant.org
+Research correspondence: admin@fluentlogic.org · Research site: orthant.org · LinkedIn: linkedin.com/in/martin-brodeur-8b7bb62a5
 ```
